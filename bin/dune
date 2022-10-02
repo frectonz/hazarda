@@ -1,0 +1,4 @@
+(executable
+ (public_name hazarda)
+ (name main)
+ (libraries core ANSITerminal))
