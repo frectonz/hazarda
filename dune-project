@@ -5,22 +5,20 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github frectonz/hazarda))
 
-(authors "Author Name")
+(authors "Fraol Lemecha")
 
-(maintainers "Maintainer Name")
+(maintainers "Fraol Lemecha")
 
-(license LICENSE)
-
-(documentation https://url/to/documentation)
+(license MIT)
 
 (package
  (name hazarda)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "A random number game")
+ (description "A random number game")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  (random number game)))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
