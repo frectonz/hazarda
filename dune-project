@@ -17,7 +17,7 @@
  (name hazarda)
  (synopsis "A random number game")
  (description "A random number game")
- (depends ocaml dune)
+ (depends ocaml dune core ANSITerminal)
  (tags
   (random number game)))
 

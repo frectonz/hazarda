@@ -11,9 +11,9 @@ bug-reports: "https://github.com/frectonz/hazarda/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.4"}
-  "odoc" {with-doc}
-  "ANSITerminal"
   "core"
+  "ANSITerminal"
+  "odoc" {with-doc}
 ]
 build: [
   ["dune" "subst"] {dev}
